@@ -1,16 +1,9 @@
 {
-    "name": "timer/text",
-    "type": "library",
+    "name": "phptimer/text",
     "autoload": {
         "psr-4": {
-            "Timer\\Text\\": "src/"
+            "timer\\": "src/mrtwenty/timer"
         }
     },
-    "authors": [
-        {
-            "name": "PatrickStar",
-            "email": "1186372576@qq.com"
-        }
-    ],
     "require": {}
 }

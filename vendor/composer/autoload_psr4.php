@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Timer\\Text\\' => array($baseDir . '/src'),
+    'timer\\' => array($baseDir . '/src/mrtwenty/timer'),
 );

@@ -4,19 +4,19 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9cb772ca7a17267d59046cf932ca0c32
+class ComposerStaticInit2f44398c223914e70fd9257042ad2379
 {
     public static $prefixLengthsPsr4 = array (
-        'T' => 
+        't' => 
         array (
-            'Timer\\Text\\' => 11,
+            'timer\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Timer\\Text\\' => 
+        'timer\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/mrtwenty/timer',
         ),
     );
 
@@ -27,9 +27,9 @@ class ComposerStaticInit9cb772ca7a17267d59046cf932ca0c32
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9cb772ca7a17267d59046cf932ca0c32::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9cb772ca7a17267d59046cf932ca0c32::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9cb772ca7a17267d59046cf932ca0c32::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2f44398c223914e70fd9257042ad2379::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2f44398c223914e70fd9257042ad2379::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit2f44398c223914e70fd9257042ad2379::$classMap;
 
         }, null, ClassLoader::class);
     }
