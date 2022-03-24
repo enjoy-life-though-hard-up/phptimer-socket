@@ -1,0 +1,16 @@
+{
+    "name": "timer/text",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Timer\\Text\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PatrickStar",
+            "email": "1186372576@qq.com"
+        }
+    ],
+    "require": {}
+}
